@@ -3,7 +3,7 @@
 2018-01-18 23:14:07.842   Original Setup EXE: C:\Users\c001446\Downloads\HipChat-4.30.3.1665.exe
 2018-01-18 23:14:07.842   Setup command line: /SL5="$303E2,49448534,130048,C:\Users\c001446\Downloads\HipChat-4.30.3.1665.exe" /SPAWNWND=$301D2 /NOTIFYWND=$201DA 
 2018-01-18 23:14:07.842   Windows version: 10.0.14393  (NT platform: Yes)
-2018-01-18 23:14:07.842   64-bit Windows: Yes
+2018-01-18 23:14:07.842   64-bit Windows: 
 2018-01-18 23:14:07.842   Processor architecture: 
 2018-01-18 23:14:07.846   User privileges: Administrative
 2018-01-18 23:14:07.927   64-bit install mode: No
