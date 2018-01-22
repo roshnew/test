@@ -6,7 +6,7 @@
 2018-01-18 23:14:07.842   64-bit Windows: 
 2018-01-18 23:14:07.842   Processor architecture: 
 2018-01-18 23:14:07.846   User privileges: Administrative
-2018-01-18 23:14:07.927   64-bit install mode: No
+2018-01-18 23:14:07.927   64-bit install mode:
 2018-01-18 23:14:07.938   Created temporary directory: al\Temp\is-0CF74.tmp
 2018-01-18 23:14:08.011   Is silent install false
 2018-01-18 23:14:09.204   CheckProcessRunning is called HipChat.exe ResultCode is 0
