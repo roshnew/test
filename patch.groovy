@@ -28,15 +28,3 @@ node {
 
 
 
-def notifyFailed(failure_email_address) {
-		def details = """Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':
-		Check console output at '${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]"""
-		
-	  emailext (
-		  to: '${failure_email_address}',
-		  from: 'azu-jenkins02@footlocker.com',
-		  subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
-		  body: details,
-		  recipientProviders: [[$class: 'DevelopersRecipientProvider']]
-		)
-}
