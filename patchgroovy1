@@ -1,0 +1,3 @@
+#!groovy
+
+                    sh "knife ssh tags:${chef_env} 'sudo -S ${command}' -P '@ppleU$er2010' -x shibinsubhash"
