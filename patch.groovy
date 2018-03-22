@@ -10,11 +10,11 @@ node {
 
             withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${credentials}", usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD']]) {
                     sh "knife ssh tags:${chef_env} 'sudo -S ${command}' -P '${PASSWORD}' -x ${USERNAME}"
-              }
+                  }
           } 
 
      }
-     
+   }   
 
      stage("ending") {
          
