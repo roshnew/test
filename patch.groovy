@@ -9,7 +9,7 @@ node {
           try {
 
             withCredentials([[$class: 'UsernamePasswordMultiBinding', credentialsId: "${credentialsId}", usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD']]) {
-                    sh "knife ssh tags:${chef_env} 'sudo -S ${command}' -P '${PASSWORD}' -x ${USERNAME}"
+                    sh "knife ssh -tt tags:${chef_env} 'sudo -S ${command}' -P '${PASSWORD}' -x ${USERNAME}"
               }
           } catch (e) {
               currentBuild.result = "FAILED"
